@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
-@media(max-width: 600px) {
-	body {
-		background: red;
-	}
-}
+
 
 body {
     font-family: josefin-sans;
@@ -16,6 +12,7 @@ body {
     background: black;
     color: white;
     font-weight: 400;
+	cursor: url("../Images/Circle-white.png"), pointer;
 }
 
 
@@ -56,6 +53,7 @@ body {
   transition-duration: 0.1s;
   -webkit-transition-property: transform;
   transition-property: transform;
+	
 
 	
 }
@@ -65,11 +63,12 @@ body {
     transform: scale(1.1);
     -webkit-box-shadow: 0px 0px #FF0004;
     box-shadow: 0px 0px #FF0004;
+	cursor: url("../Images/Triangle-white.png"), pointer;
 }
 
 .button-image{
     border: 15px solid black;
-	border-radius: 30px;
+	border-radius: 10px;
 	
     box-shadow: 0 0px 0px 5px white;
 	}
@@ -215,6 +214,7 @@ body {
 
 	 -webkit-transform: scale(1.1);
   	transform: scale(1.1);
+	cursor: url("../Images/Circle-white.png"), pointer;
 }
 
 #displaybox{
@@ -233,6 +233,27 @@ body {
 	font-family: "Arial Black";
 	font-size: 30px;
 	
+	
+	
+}
+
+.imgwtext{
+	
+	display: flex;
+	text-align: center;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	cursor: url("../Images/Triangle-white.png"), pointer;
+	
+	
+	
+}
+
+.smallimg{
+	
+	
+	padding: 15px;
 	
 	
 }
