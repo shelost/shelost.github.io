@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	
+	background-color: darkorange;
+	font-family: system-ui, "avenir";
+	font-weight: bolder;
+	color: lightgoldenrodyellow;
+	
+}
+
+a{
+	
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	
+	color: cyan;
+}
+
+.title{
+	
+	font-size: 120px;
+	text-align: center;
+	margin: 20px;
+	
+}
+
+.subtitle{
+	
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	
+}
+
+.steve{
+	
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	
+	transform: scale(1.0);
+	
+		
+	transition-property: transform;
+	transition-timing-function: ease;
+	transition-duration: 0.1s;
+	
+}
+
+.steve:hover{
+	
+	transform: scale(1.1);
+	
+}
+
+.container{
+	
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+	
+	
+}
+
+#logo{
+	
+	width: 200px;
+	margin: auto;
+	background-color: lightgoldenrodyellow;
+	padding: 10px;
+	border-radius: 10px;
+	
+	
+	
+	
+}
+
+.bottom{
+	
+	margin: 30px;;
+	text-align: center;
+	transform: scale(1.0);
+	
+	transition-property: transform;
+	transition-timing-function: ease;
+	transition-duration: 0.1s;
+
+	
+	
+}
+
+.bottom:hover{
+	
+	transform: scale(1.1);
+	
+	
+}

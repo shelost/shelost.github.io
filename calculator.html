@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> CALCULATOR </title>
+	
+<link rel = "stylesheet" type = "text/css" href = "style.css" media = "screen and (min-width: 1080px)">
+<link rel = "stylesheet" type = "text/css" href = "small.css" media = "screen and (max-width: 1080px)">
+</head>
+
+	
+
+	
+	
+<body>
+
+	
+	
+	<div class = "navbar">
+	
+		<a href = "index.html">
+		
+			<img src = "../IMG/HWA-colors.png" width = "220px" height = "110px" alt = "" id = "logo">
+		</a>
+	
+		<div class = "button-stack"> 
+		
+			<a href = "design.html" >
+				<h1 id = "design" class = "navlink"> DESIGN  </h1>
+			</a> 
+			<a href = "code.html">
+				<h1 id = "code"  class = "navlink">  CODE </h1>
+			</a> 
+			<a href = "ideas.html">
+				<h1 id = "ideas"  class = "navlink"> IDEAS </h1>
+			</a>
+			<a href = "minis.html">
+				<h1 id = "minis" class = "navlink"> MINIS! </h1>
+			</a>
+		
+		</div>
+		
+		<div class = "button-stack" id = "sns"> 
+		
+			<a href = "https://www.instagram.com/shelost.off/" >
+				<h1 id = "ig"> IG</h1>
+			</a> 
+			<a href = "mailto: shelost.off@gmail.com">
+				<h1 id = "email">  EMAIL </h1>
+			</a> 
+			<a href = "minis.html">
+				<h1 id = "minis" class = "navlink"> MINIS! </h1>
+			</a>
+		
+		</div>
+	
+
+	</div>
+	
+	
+	<div class = "element">
+	
+		<h1 class = "bigbig"> CALCULATOR </h1>
+		
+	
+	</div>
+	
+	<div class = "element">
+	
+		<h2 class = "abstract"> A simple arithmetic calculator, built using an HTML table and the eval() function.  </h2>
+		
+	
+	
+	</div>
+	
+	<div class = "element">
+	
+	<form name = "calculator">
+	
+		<table class = "table">
+		
+			<tr>
+				<td colspan = "4"><input type = "text" name = "display" id = "displaybox"> </td> 
+				
+			</tr>
+				
+			<tr>
+		 		<td><input class = "calckey" type = "button" name = "one" value = "1" onclick = "calculator.display.value += '1'"> </td>
+				<td><input class = "calckey" type = "button" name = "two" value = "2" onclick = "calculator.display.value += '2'"> </td>
+				<td><input class = "calckey" type = "button" name = "three" value = "3" onclick = "calculator.display.value += '3'"> </td>
+				<td><input class = "calckey" type = "button" name = "plus" value = "+" onclick = "calculator.display.value += '+'"> </td>
+		
+			</tr>
+		
+			<tr>
+			 	<td><input class = "calckey" type = "button" name = "four" value = "4" onclick = "calculator.display.value += '4'"> </td>
+				<td><input class = "calckey" type = "button" name = "five" value = "5" onclick = "calculator.display.value += '5'"> </td>
+				<td><input class = "calckey" type = "button" name = "six" value = "6" onclick = "calculator.display.value += '6'"> </td>
+				<td><input class = "calckey" type = "button" name = "minus" value = "-" onclick = "calculator.display.value += '-'"> </td>
+		
+			</tr>
+		
+			<tr>
+			 	<td><input class = "calckey" type = "button" name = "four" value = "7" onclick = "calculator.display.value += '7'"> </td>
+				<td><input class = "calckey" type = "button" name = "five" value = "8" onclick = "calculator.display.value += '8'"> </td>
+				<td><input class = "calckey" type = "button" name = "six" value = "9" onclick = "calculator.display.value += '9'"> </td>
+				<td><input class = "calckey" type = "button" name = "seven" value = "*" onclick = "calculator.display.value += '*'"> </td>
+		
+			</tr>
+		
+			<tr>
+			
+				<td><input class = "calckey" type = "button" name = "equals" value = "=" onclick = "calculator.display.value = eval(calculator.display.value)"> </td>	
+				<td><input class = "calckey" type = "button" name = "clear" value = "C" onclick = "calculator.display.value = ''"> </td>
+				<td><input class = "calckey" type = "button" name = "credits" value = "0" onclick = "calculator.display.value += '0'"> </td>
+				<td><input class = "calckey" type = "button" name = "divide" value = "/" onclick = "calculator.display.value += '/'"> </td>
+		
+			</tr>
+		
+		</table>
+	
+		
+	</form>
+	
+	</div> 
+	
+</body>
+</html>

@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+input:focus{
+	
+	outline:none !important;
+	
+}
+
+
+button:focus{
+	
+	outline:none !important;
+	
+}
+a{
+	
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+
+	color: black;
+
+}
+
+
+body{
+	
+	font-family: "futura", sans-serif;
+	background-color: white;
+
+}
+
+#logo{
+	
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+.navlink{
+	
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+
+.button-stack{
+	
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+#sns{
+	
+	display: none;
+	
+}
+
+#design{
+	
+	border-bottom: 20px solid purple;
+	color: black;
+	
+	transition-property: color;
+	transition-timing-function: ease;
+	transition-duration: 0.2s;
+	
+}
+
+#design:hover{
+	
+ 	color: purple;
+	
+}
+
+#code{
+	
+	color: black;
+	border-bottom: 20px solid green;
+	
+	transition-property: color;
+	transition-timing-function: ease;
+	transition-duration: 0.2s;
+	
+}
+
+#code:hover{
+	
+	color: green;
+	
+}
+
+#ideas{
+	
+	border-bottom: 20px solid royalblue;
+	color: black;
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#ideas:hover{
+	
+	color: royalblue;
+	
+}
+
+#minis{
+	
+	border-bottom: 20px solid orangered;
+	color: black;
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#minis:hover{
+	
+	color: orangered;
+	
+}
+
+.element{
+	
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+	
+}
+
+.bigbig{
+	font-size: 60px;
+	
+}
+.big{
+	
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+.banner{
+	
+	width: 100%;
+	opacity: 1;
+	
+	transition-property: opacity;
+	trransition-timing-function: ease;
+	transition-duration: 0.2s;
+	
+}
+
+.banner-static{
+	
+	width: 100%;
+}
+
+.element:hover .banner{
+	opacity: 0.5;
+	
+}
+
+.half-half{
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+
+.abstract{
+	
+	font-size: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	
+	
+}
+
+.calckey{
+	
+	width: 100px;
+	height: 100px;
+	border: 5px solid lightgray;
+	font-family: "futura", sans-serif;
+	border-radius: 40px;
+	font-size: 40px;
+	background-color: white;
+	color: black;
+	
+	transition-property: background-color, color;
+	transition-timing-function: ease;
+	transition-duration: 0.2s;
+}
+
+.calckey:hover{
+	
+	background-color: black;
+	color: white
+	
+}
+.table{
+	
+	margin: auto;
+}
+
+#displaybox{
+	
+	width: 360px;
+	height: 60px;
+	padding: 20px;
+	border: 5px solid lightgray;
+	margin-bottom: 20px;
+	border-radius: 40px;
+	
+	font-size: 40px;
+	font-family: "futura", sans-serif;
+	
+}
+
+.inputsection{
+	
+	background-color: lightblue;
+	border-radius: 40px;
+	
+	
+}
+
+
+.inputbox{
+
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 20px;
+	border: 5px solid white;
+	font-family: "futura", sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 600px;
+	
+	
+}
+
+#typebox{
+	
+	margin-bottom: 40px;
+	margin-top: 20px;
+	background-color: white;
+	box-shadow: 0 0 white;
+	
+	transition-property: background-color, box-shadow;
+	transition-timing-function: ease-in;
+	transition-duration: 0.2s;
+	
+}
+
+#typebox:hover{
+	
+	background-color: lightblue;
+	box-shadow: 0 0 10px white;
+	
+	
+}
+
+
+#morsebox{
+	
+	margin-bottom: 20px;
+	margin-top: 40px;
+	
+}
+
+.button1{
+	
+	width: 150px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	font-family: "futura", sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+	border: 5px solid white;
+	box-shadow: 0 0 black;
+
+	background-color: white;
+	color: black;
+
+	transition-property: background-color, box-shadow;
+	transition-timing-function: ease-in;
+	transition-duration: 0.2s;
+	
+}
+
+.button1:hover{
+	
+	background-color: lightblue;
+	box-shadow: 0 0 20px white;
+	
+}
+
+.button1:active{
+	
+	
+	background-color: yellow;
+	
+}
+
+.box{
+	
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	font-size: 50px
+	
+}
+
+#newBoggle{
+	
+	background-color: black;
+	color: white;
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	transform: scale(1.0);
+	
+	transition-properrty: transform;
+	transition-duration: 0.1s;
+	transition-timing-function: ease;
+}
+
+#newBoggle:hover{
+	
+	transform: scale(1.05);
+	
+}
+
+.img25{
+	
+	width: 400px;
+	margin: 10px;
+	border-radius: 20px;
+	
+}
+
+

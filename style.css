@@ -1,264 +1,479 @@
 @charset "UTF-8";
+/* CSS Document */
 
+body{
+	
+	font-family: "futura", sans-serif;
+	background-color: white;
 
-
-body {
-    font-family: josefin-sans;
-    margin-left: 30px;
-    margin-right: 30px;
-    background-color: black;
-    text-align: center;
-    font-style: normal;
-    background: black;
-    color: white;
-    font-weight: 400;
-	cursor: url("../Images/Circle-white.png"), pointer;
 }
 
 
 
-.heading {
-    font-family: "josefin-slab";
-    text-align: center;
-    font-style: normal;
-    float: none;
-    cleaxr: both;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 100px;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    font-weight: 800;
-}
-
-.container{
+input:focus{
 	
-	padding-top: 50px;
-	padding-bottom: 50px;
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-
+	outline:none !important;
 	
 }
 
-.button{
-	
-	
-	padding: 40px;
-	-webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.1s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-	
 
+button:focus{
+	
+	outline:none !important;
 	
 }
 
-.button:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-box-shadow: 0px 0px #FF0004;
-    box-shadow: 0px 0px #FF0004;
-	cursor: url("../Images/Triangle-white.png"), pointer;
+.navbar{
+	
+	
+	width: 250px;
+	height: auto;
+	
+	position: fixed;
+	
+}
+a{
+	
+	color: black;
+	text-decoration: none;
 }
 
-.button-image{
-    border: 15px solid black;
-	border-radius: 10px;
+a:visited{
+
+	color: black;
+
+}
+
+#logo{
 	
-    box-shadow: 0 0px 0px 5px white;
-	}
+	padding-top: 25px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	
+	
+	
+}
+.button-stack{
+	
+	margin-left: 20px;
+	
+	
+}
 
-.abstract{
- 
-	display: inline-block;
-	align: center;
-    padding-left: 30px;
-	padding-right: 30px;
-    border: 4px solid white;
-    border-radius: 10px;
- }
+.bigbig{
+	
+	font-size: 120px;
+	margin: 0;
+}
 
-.subheading{
+.big{
+	
+	font-size: 70px;
+	margin: 0;
+	
+}
+	
+
+#design{
 	
 	font-size: 40px;
-	font-family: "josefin-slab";
-	position: relative;
-	bottom: 50px;
+	color: black;
 	
 	
+	transition-property: color;
+	transition-duration: 0.2s;
 	
 }
 
-.image{
+#design:hover{
 	
-	padding:50px;
+	color: purple;
+	
 }
 
-.title{
+#code{
 	
-	font-family: 'josefin-slab';
-	font-size: 20px;
+	font-size: 40px;
+	color: black;
+	
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#code:hover{
+	
+	color: green;
+	
+}
+
+#minis{
+	
+	font-size: 40px;
+	color: black;
+	
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#minis:hover{
+	
+	color: orangered;
+	
+}
+
+#ideas{
+	
+	font-size: 40px;
+	color: black;
+	
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#ideas:hover{
+	
+	color: royalblue;
+	
+}
+
+#ig{
+	
+	font-size: 40px;
+	color: black;
+	
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#ig:hover{
+	
+	color: hotpink;
+	
+}
+
+#email{
+	
+	font-size: 40px;
+	color: black;
+	
+	
+	transition-property: color;
+	transition-duration: 0.2s;
+	
+}
+
+#email:hover{
+	
+	color: mediumslateblue;
+	
+}
+
+#sns{
+	
+	position: fixed;
+	bottom: 30px;
+	
+	
 }
 
 .element{
 	
-		max-width: 370px;
-		padding: 20px;
-			
-	}
-
-
-.narrow-element{
-	
-		max-width: 340px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		padding-right: 60px;
-		padding-left: 60px;
-	
-}
-.sq500{
-	
-	min-width: 100px;
-	min-height: 100px;
-	
-	max-width: 800px;
-	max-height: 800px;
+	margin-left: 270px;
+	height: auto;
+	width: auto;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	
 }
 
-.just-rounded{
+.element:hover .banner{
 	
-	border-radius: 10px;
+	opacity: 0.5;
+}
+
+.half-half{
+	
+	margin-left: 270px;
+	height: auto;
+	width: auto;;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	margin-right: 20px;
+	
+}
+
+.banner{
+	
+	width: 100%;
+	height: auto; 
+	
+	opacity: 1;
+	
+	transition-property: opacity;
+	transition-timing-function: ease-in;
+	transition-duration: 0.1s;
+}
+
+.banner-static{
+	
+	width: 100%;
+	height: auto; 
+	
+
+}
+
+
+
+
+.half-left{
+	
+	width: 48%;
+	height: auto;
+	margin-right: 2%;
 	
 	
 }
 
-.narrow-text{
+.half-right{
 	
-	max-width: 200px;
+	width: 48%;
+	height: auto;
+	margin-left: 2%;
 	
-	
-}
-
-#shout-out{
-	
-	max-width:300px;
 	
 }
 
 .box{
 	
-	width: 100px;
-	height: 100px;
-	background-color: gray;
-	font-size: 50px;
-	
-	
-	
+	width: 150px;
+	height: 150px;
+	font-size: 80px;
+	text-align: center;
+	background-color: black;
+	color: white;
 	
 }
 
 .table{
 	
 	margin: auto;
-	padding: 50px;
-	
 	
 }
 
 #newBoggle{
 	
-	border-style: solid;
-	border-width: 5px;
-	border-colro: white;
-	width: 200px;
-	margin: auto;
-	font-size: 30px;
-	border-radius: 20px;
+	font-size: 50px;
 	
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	transform: scale(1.0);
+	
+	transition-property: transform;
+	transition-timing-function: ease-in;
+	transition-duration: 0.1s;
+	
+}
+
+#newBoggle:hover{
+	
+	transform: scale(1.05);
+	
+}
+
+.linkk{
+	
+	color: red;
+	
+	transition-property: color;
+	transition-timing-function: ease-in;
+	transition-duration: 0.2s;
+	
+}
+
+.linkk:hover{
+	
+	color: blue;
 	
 }
 
 .calckey{
 	
-	font-size: 30px;
 	width: 100px;
 	height: 100px;
-	background-color: black;
-	border-style: solid;
-	border-color: #FFA42E;
-	border-radius: 50px;
-	color: #FFA42E;
-	font-weight: 400px;
-	font-family: "Arial Black";
-	margin: 10px;
-	-webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.1s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+	border-radius: 40px;
+	font-size: 40px;
+	font-family: "futura", sans-serif;
+	background-color: white;
 
-
+	transition-property: background-color, color;
+	transition-timing-function: ease-in;
+	transition-duration: 0.1s;
+	border: 5px solid lightgrey;
+	
+	
 }
 
 .calckey:hover{
 	
-
-	 -webkit-transform: scale(1.1);
-  	transform: scale(1.1);
-	cursor: url("../Images/Circle-white.png"), pointer;
+	background-color: black;
+	color: white;
+	
+	
 }
 
 #displaybox{
 	
-	background-color: black;
-	width: 400px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-	padding: 40px;
-	border-style: solid;
-	border-color: #FFA42E;
-	border-radius: 50px;
-	color: #FFA42E;
-	font-weight: 400px;
-	font-family: "Arial Black";
-	font-size: 30px;
-	
-	
+	width: 360px;
+	height: 100px;
+	border-radius: 40px;
+	border: 5px solid lightgrey;
+	font-size: 40px;
+	font-family: "futura", sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
 	
 }
 
-.imgwtext{
+.img25{
+	
+	width: 320px;
+	height: 220px;
+	margin: 10px;
+
+	
+}
+
+.container{
 	
 	display: flex;
-	text-align: center;
+	flex-wrap: wrap;
 	margin: auto;
-	align-items: center;
-	justify-content: center;
-	cursor: url("../Images/Triangle-white.png"), pointer;
-	
+	justify-content: space-evenly;
+}
+
+.inputbox{
+
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 20px;
+	border: 5px solid white;
+	font-family: "futura", sans-serif;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 600px;
 	
 	
 }
 
-.smallimg{
+#typebox{
 	
+	margin-bottom: 40px;
+	margin-top: 20px;
+	background-color: white;
+	box-shadow: 0 0 white;
 	
-	padding: 15px;
+	transition-property: background-color, box-shadow;
+	transition-timing-function: ease-in;
+	transition-duration: 0.2s;
+	
+}
+
+#typebox:hover{
+	
+	background-color: lightblue;
+	box-shadow: 0 0 10px white;
 	
 	
 }
 
 
+#morsebox{
+	
+	margin-bottom: 20px;
+	margin-top: 40px;
+	
+}
+
+
+.inputsection{
+	
+	
+	background-color: lightblue;
+	border-radius: 30px;
+
 
 	
+}
+
+.button1{
 	
+	width: 200px;
+	height: 100px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	font-family: "futura", sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+	border: 5px solid white;
+	box-shadow: 0 0 black;
+
+	background-color: white;
+	color: black;
+
+	transition-property: background-color, box-shadow;
+	transition-timing-function: ease-in;
+	transition-duration: 0.2s;
+	
+}
+
+.button1:hover{
+	
+	background-color: lightblue;
+	box-shadow: 0 0 20px white;
+	
+}
+
+.button1:active{
+	
+	
+	background-color: yellow;
+	
+}
+
+#logo{
+	
+	transform: scale(1.0);
+	
+	transition-property: transform;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	
+}
+
+#logo:hover{
+	
+	transform: scale(1.05);
+	
+}
+
+.abstract a{
+	
+	color: dodgerblue;
+	
+}
