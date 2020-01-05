@@ -68,19 +68,41 @@ a:visited{
 
 .big{
 	
+	margin-top: 10px;
+	margin-bottom: 20px;
 	font-size: 70px;
-	margin: 0;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	border-left: 20px solid black;
+	
+	transition-property: border;
+	transition-timing-function: ease;
+	transition-duration: 0.2s;
 	
 }
+
+
+.navlink{
 	
+	padding-left: 10px;
+	position: relative;
+	left: 0;
+
+	
+}
+
 
 #design{
 	
 	font-size: 40px;
 	color: black;
+	border-left: 10px solid purple;
 	
 	
-	transition-property: color;
+	transition-property: color, border;
+	transition-timing-function: ease;
 	transition-duration: 0.2s;
 	
 }
@@ -88,6 +110,7 @@ a:visited{
 #design:hover{
 	
 	color: purple;
+	border-left: 30px solid purple;
 	
 }
 
@@ -95,9 +118,11 @@ a:visited{
 	
 	font-size: 40px;
 	color: black;
+	border-left: 10px solid green;
 	
 	
-	transition-property: color;
+	transition-property: color, border;
+	transition-timing-function: ease;
 	transition-duration: 0.2s;
 	
 }
@@ -105,6 +130,7 @@ a:visited{
 #code:hover{
 	
 	color: green;
+	border-left: 30px solid green;
 	
 }
 
@@ -112,9 +138,11 @@ a:visited{
 	
 	font-size: 40px;
 	color: black;
+	border-left: 10px solid orangered;
 	
 	
-	transition-property: color;
+	transition-property: color, border;
+	transition-timing-function: ease;
 	transition-duration: 0.2s;
 	
 }
@@ -122,6 +150,7 @@ a:visited{
 #minis:hover{
 	
 	color: orangered;
+	border-left: 30px solid red;
 	
 }
 
@@ -129,9 +158,11 @@ a:visited{
 	
 	font-size: 40px;
 	color: black;
+	border-left: 10px solid royalblue;
 	
 	
-	transition-property: color;
+	transition-property: color, border;
+	transition-timing-function: ease;
 	transition-duration: 0.2s;
 	
 }
@@ -139,6 +170,7 @@ a:visited{
 #ideas:hover{
 	
 	color: royalblue;
+	border-left: 30px solid royalblue;
 	
 }
 
@@ -146,9 +178,12 @@ a:visited{
 	
 	font-size: 40px;
 	color: black;
+	border-left: 10px solid hotpink;
+	padding-left: 10px;
 	
 	
-	transition-property: color;
+	transition-property: color, border;
+	transition-timing-function: ease;
 	transition-duration: 0.2s;
 	
 }
@@ -156,6 +191,7 @@ a:visited{
 #ig:hover{
 	
 	color: hotpink;
+	border-left: 30px solid hotpink;
 	
 }
 
@@ -163,9 +199,12 @@ a:visited{
 	
 	font-size: 40px;
 	color: black;
+	border-left: 10px solid mediumslateblue;
+	padding-left: 10px;
 	
 	
-	transition-property: color;
+	transition-property: color, border;
+	transition-timing-function: ease;
 	transition-duration: 0.2s;
 	
 }
@@ -173,6 +212,7 @@ a:visited{
 #email:hover{
 	
 	color: mediumslateblue;
+	border-left: 30px solid mediumslateblue;
 	
 }
 
@@ -195,9 +235,28 @@ a:visited{
 	
 }
 
-.element:hover .banner{
+.element-main{
 	
-	opacity: 0.5;
+	margin-left: 270px;
+	height: auto;
+	width: auto;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.element-main:hover .banner{
+
+	opacity: 0.7;
+	
+	
+}
+
+.element-main:hover .big{
+	
+	border-left: 70px solid black;
+	
 }
 
 .half-half{
@@ -217,9 +276,10 @@ a:visited{
 	width: 100%;
 	height: auto; 
 	
-	opacity: 1;
+	outline: 0px solid black;
+	outline-offset: -20px;
 	
-	transition-property: opacity;
+	transition-property: opacity, outline;
 	transition-timing-function: ease-in;
 	transition-duration: 0.1s;
 }
@@ -229,11 +289,7 @@ a:visited{
 	width: 100%;
 	height: auto; 
 	
-
 }
-
-
-
 
 .half-left{
 	
@@ -295,9 +351,9 @@ a:visited{
 	
 }
 
-.linkk{
+.abstract a{
 	
-	color: red;
+	color: dodgerblue;
 	
 	transition-property: color;
 	transition-timing-function: ease-in;
@@ -305,7 +361,7 @@ a:visited{
 	
 }
 
-.linkk:hover{
+.abstract a:hover{
 	
 	color: blue;
 	
@@ -371,12 +427,12 @@ a:visited{
 	background-color: white;
 	font-size: 20px;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 5px solid white;
 	font-family: "futura", sans-serif;
 	margin-left: 40px;
 	margin-right: 40px;
-	width: 600px;
+	width: 800px;
 	
 	
 }
@@ -387,17 +443,6 @@ a:visited{
 	margin-top: 20px;
 	background-color: white;
 	box-shadow: 0 0 white;
-	
-	transition-property: background-color, box-shadow;
-	transition-timing-function: ease-in;
-	transition-duration: 0.2s;
-	
-}
-
-#typebox:hover{
-	
-	background-color: lightblue;
-	box-shadow: 0 0 10px white;
 	
 	
 }
@@ -414,8 +459,8 @@ a:visited{
 .inputsection{
 	
 	
-	background-color: lightblue;
-	border-radius: 30px;
+	background-color: black;
+	border-radius: 10px;
 
 
 	
@@ -429,14 +474,14 @@ a:visited{
 	margin-bottom: 40px;
 	font-family: "futura", sans-serif;
 	font-size: 20px;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 5px solid white;
 	box-shadow: 0 0 black;
 
 	background-color: white;
-	color: black;
+	transform: scale(1.0);
 
-	transition-property: background-color, box-shadow;
+	transition-property: transform, box-shadow;
 	transition-timing-function: ease-in;
 	transition-duration: 0.2s;
 	
@@ -444,17 +489,12 @@ a:visited{
 
 .button1:hover{
 	
-	background-color: lightblue;
+	transform: scale(1.05);
 	box-shadow: 0 0 20px white;
 	
 }
 
-.button1:active{
-	
-	
-	background-color: yellow;
-	
-}
+
 
 #logo{
 	
@@ -472,8 +512,268 @@ a:visited{
 	
 }
 
-.abstract a{
+.abstract{
 	
-	color: dodgerblue;
+	font-family: "Arial", sans-serif;
+	font-size: 30px;
+	border-left: 20px solid black;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+
 	
+	
+}
+
+
+.fullscreen{
+
+	background-color: orange;
+	color: white;
+	font-family: "Arial", sans-serif;
+	width: 200px;
+	font-size: 10px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	text-align: center;
+	line-height: 40px;
+	transform: scale(1.0);
+
+
+	transition-property: color, background-color, transform;
+	transition-timing-function: ease-in;
+	transition-duration: 0.2s;
+
+}
+ 
+
+.fullscreen:hover{
+
+	background-color: orangered;
+	color: yellow;
+	transform: scale(1.05);
+
+
+
+	
+}
+
+#snitch{
+	margin: auto;
+}
+
+
+
+.fib{
+
+	background-color: lightgreen;
+	height: auto;
+	padding-bottom: 30px;
+
+
+}
+
+#fibbox{
+
+	background-color: white;
+	width: auto;
+	height: auto;
+	max-width: 1000px;
+	margin-left: 30px;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 20px;
+
+}
+
+#answerbox{
+
+	background-color: white;
+	width: auto;
+	height: auto;
+	max-width: 1000px;
+	margin-left: 30px;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 30px;
+
+}
+
+.button2{
+
+	width: auto;
+	margin: 10px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+	border: 1px solid white;
+	font-size: 20px;
+	font-family: 'futura', 'arial', sans-serif;
+
+	transform: scale(1.0);
+	box-shadow: 0 0 0px black;
+
+	transition-property: transform, box-shadow, background-color;
+	transition-timing-function: ease;
+	transition-duration: 0.2s;
+}
+
+.button2:hover{
+
+	transform: scale(1.05);
+	box-shadow: 0 5px 10px gray;
+
+}
+.button2:active{
+	background-color: yellow;
+}
+
+.numberbox{
+
+	font-size: 20px;
+	border: 20px solid white;
+	border-radius: 5px;
+	margin: 30px;
+}
+
+.shortbox{
+
+
+	font-size: 20px;
+	border: 10px solid white;
+	border-radius: 5px;
+	margin: 30px;
+	width: 40px;
+	font-family: 'Futura', 'Avenir', sans-serif;
+	font-size: 40px;
+	width: 50px;
+
+
+}
+
+.row{
+
+	display: flex;
+	justify-content: left;
+	align-content: center;
+	align-items: center;
+}
+
+.bg-img{
+
+	position: absolute;
+	width: 70%;
+	margin: auto;
+}
+
+.start-bg-btn{
+
+	margin-top: 30vh;
+	font-size: 22px;
+	padding: 10px 40px;
+	color: white;
+	margin: none;
+	border-radius: 20px;
+	border: 10px solid white;
+	background-color: black;
+	box-shadow: none;
+	
+
+
+	transition-property: font-size, margin, background-color, border, box-shadow;
+	transition-timing-function: ease;
+	transition-duration: 0.1s;
+
+
+
+}
+
+.start-bg-btn:hover {
+
+	font-size: 23px;
+	background-color: red;
+	border: 10px solid gold;
+	box-shadow: 0px 0px 20px white;
+}
+
+.bg-orbits{
+
+	display: flex;
+	justify-content: center;
+	vertical-align: center;
+
+
+	background-color: red;
+	
+	background-image: url("../IMG-2/orbits-thumb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	flex: 1;
+	background-size: cover;
+	text-align: center;
+	vertical-align: center;
+	width: 80vw;
+	height: 80vh;
+}
+
+.bg-orbiting{
+
+	display: flex;
+	justify-content: center;
+	vertical-align: center;
+
+
+	background-color: red;
+	
+	background-image: url("../IMG-2/orbiting-thumb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	flex: 1;
+	background-size: cover;
+	text-align: center;
+	vertical-align: center;
+	width: 80vw;
+	height: 80vh;
+
+}
+
+.bg-pong{
+
+	display: flex;
+	justify-content: center;
+	vertical-align: center;
+
+
+	background-color: red;
+	
+	background-image: url("../IMG-2/pong-thumb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	flex: 1;
+	background-size: cover;
+	text-align: center;
+	vertical-align: center;
+	width: 80vw;
+	height: 80vh;
+
+}
+
+.game-desktop{
+
+	display: block;
+}
+
+.game-btn{
+
+	position: absolute;
+	bottom: 10px;
+
+}
+
+.mobile{
+
+	display: none;
 }

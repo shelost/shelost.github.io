@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ORBITING</title>
+</head>
+	
+<link rel = "stylesheet" type = "text/css" href = "../style.css" media = "screen and (min-width:1080px)">
+<link rel = "stylesheet" type = "text/css" href = "../small.css" media = "screen and (max-width: 1080px)">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body>
+
+
+
+	<canvas id = "canvas" style = "position: absolute; left: 0px; top: 0px; z-index: 1">
+		</canvas>
+
+	<canvas id = "canvas2" style = "position: absolute; left: 0px; top: 0px; z-index: 2">
+		</canvas>
+
+	<canvas id = "canvas3" style = "position: absolute; left: 0px; top: 0px; z-index: 3">
+		</canvas>
+
+	
+	<div class = "mobile controls">
+
+		<div class = "btn-stack">
+			<div class = "game-btn" id = "left-btn"> 
+
+				<i class = "material-icons btn-icon" style = "font-size: 70px; color: blue; line-height: 100px">rotate_right</i>
+
+			</div>
+		</div>
+
+		<div class = "btn-stack">
+			<div class = "game-btn" id = "up-btn"> 
+
+					<i class = "material-icons btn-icon" style = "font-size: 70px; color: blue; line-height: 50px">expand_less</i>
+			</div>
+	
+			<div class = "game-btn" id = "down-btn"> 
+
+					<i class = "material-icons btn-icon" style = "font-size: 70px; color: blue; line-height: 50px">expand_more</i>
+			</div>
+		</div>
+
+		<div class = "btn-stack">
+			<div class = "game-btn" id = "right-btn"> 
+
+					<i class = "material-icons btn-icon" style = "font-size: 70px; color: blue; line-height: 100px">rotate_left</i>
+			</div>
+		</div>
+
+	
+	
+	</div>
+	
+	<script src = "orbiting.js"></script>
+	<script type = "text/javascript"></script>
+	
+	
+</body>
+</html>
